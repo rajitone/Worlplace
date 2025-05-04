@@ -1,0 +1,42 @@
+
+Sub BasicMacro()
+'Sheets.Add
+'Sheets.Add after:=Sheets("Sheet1")
+'Sheets.Add before:=Sheets("Sheet1")
+'Sheets.Add after:=Sheets(Sheets.Count)
+
+'Sheets("Sheet15").Activate
+'Sheets("Sheet18").Select
+
+'Sheets("Sheet15").Name = "Employee"
+'Sheets("Employee").Delete
+
+'Sheets("Sheet20").Visible = False
+'Sheets("Sheet20").Visible = True
+
+'Sheets("Sheet22").Visible = xlSheetHidden
+
+Sheets("Sheet22").Visible = xlSheetVisible
+
+'Sheets("Sheet20").Visible = xlSheetVeryHidden
+
+End Sub
+Sub Revision()
+'Sheets.Add
+'Sheets.Add after:=Sheets("sheet20")
+'Sheets.Add before:=Sheets("sheet21")
+'Sheets.Add after:=Sheets(Sheets.Count)
+'Sheets("sheet20").Select
+'Sheets("sheet21").Activate
+'Sheets("sheet1").Name = "emptid"
+'Sheets("emptid").Delete
+'Sheets("sheet4").Name = "SL NO"
+'Sheets("sheet3").Visible = False
+'Sheets("sheet2").Visible = False
+'Sheets("sheet5").Visible = xlSheetHidden
+'Sheets("sheet6").Visible = xlSheetHidden
+'Sheets("sheet7").Visible = xlSheetHidden
+'Sheets("sheet3").Visible = True
+'Sheets("sheet2").Visible = xlSheetVisible
+End Sub
+
